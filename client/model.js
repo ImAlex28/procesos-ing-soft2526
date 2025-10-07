@@ -7,6 +7,7 @@ function System() {
     return this.users;
   };
 }
+
 function User(nick) {
   this.nick = nick;
 }
