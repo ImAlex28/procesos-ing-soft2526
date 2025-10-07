@@ -6,6 +6,10 @@ function System() {
   this.getUsers = function () {
     return this.users;
   };
+  this.activeUser = function (nick) {
+    return this.users.hasOwnProperty(nick);
+    //hasOwnProperty(nick) comprueba si el objeto users tiene una propiedad con ese nombre.
+  };
 }
 
 function User(nick) {
