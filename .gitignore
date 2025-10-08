@@ -6,3 +6,4 @@ dist/
 # IDE files
 .vscode/
 
+package-lock.json
