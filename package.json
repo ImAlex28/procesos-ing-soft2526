@@ -4,11 +4,15 @@
   "description": "Proyecto de aplicación web basada en servicios para la asignatura Procesos de Ingeniería del Software",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testW": "node_modules\\.bin\\jasmine-node server",
+    "test": "./node_modules/.bin/jasmine-node server"
   },
   "author": "Alejandro Gallegos",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.0.0"
   }
 }
