@@ -18,7 +18,7 @@ function System() {
     return false; // Usuario no encontrado
   };
   this.usersNumber = function () {
-    return Object.keys(this.users).length 
+    return Object.keys(this.users).length
   }
 }
 
