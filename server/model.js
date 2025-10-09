@@ -1,5 +1,6 @@
 function System() {
   this.users = {};
+  
   this.addUser = function (nick) {
       let res = {"nick":- 1};
       if (!this.users[nick]) {
