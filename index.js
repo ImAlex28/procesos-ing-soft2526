@@ -13,12 +13,6 @@ app.get("/", function (request, response) {
     response.send(contenido);
 });
 
-app.get("/addUser/:nick", function (request, response) {
-    let nick = request.params.nick;
-    let res = system.addUser(nick);
-    response.send(res);
-});
-
 app.get("/getUsers/", function (request,response) {
     let res = system.getUsers();
     response.send(res);

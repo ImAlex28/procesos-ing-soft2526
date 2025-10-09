@@ -6,7 +6,7 @@ describe('El sistema', function () {
     system = new model.System()
   }); 
   it('inicialmente no hay usuarios', function () {
-    expect(system.usersNumber()).toEqual(0);
+    expect(system.usersNumber()).toEqual({ num : 0 });
   });
   it('agrega usuario', function() {
     system.addUser("Iker");
