@@ -1,4 +1,4 @@
-function ClientRest() {
+function RestClient() {
     this.addUser = function (nick) {
         var cli = this;
         $.getJSON("/addUser/" + nick, function (data) {
